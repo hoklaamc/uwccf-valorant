@@ -47,7 +47,7 @@ export const teams = [
   },
   {
     id: 2,
-    name: "Hok's team",
+    name: 'buncha guys ere',
     players: [
       {
         name: 'Bluelazer150',
