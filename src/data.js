@@ -247,6 +247,54 @@ export const teams = [
       },
     ],
   },
+  {
+    id: 6,
+    name: "Samson's Mullet",
+    wins: 0,
+    losses: 0,
+    players: [
+      {
+        name: 'Sequoia',
+        acs: 0,
+        kills: 0,
+        deaths: 0,
+        assists: 0,
+        econ: 0,
+      },
+      {
+        name: 'bread',
+        acs: 0,
+        kills: 0,
+        deaths: 0,
+        assists: 0,
+        econ: 0,
+      },
+      {
+        name: 'Dr Schmeat',
+        acs: 0,
+        kills: 0,
+        deaths: 0,
+        assists: 0,
+        econ: 0,
+      },
+      {
+        name: 'kilojoel',
+        acs: 0,
+        kills: 0,
+        deaths: 0,
+        assists: 0,
+        econ: 0,
+      },
+      {
+        name: 'Baxxer',
+        acs: 0,
+        kills: 0,
+        deaths: 0,
+        assists: 0,
+        econ: 0,
+      },
+    ],
+  },
 ];
 
 // export const games = [
