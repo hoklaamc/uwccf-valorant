@@ -3,7 +3,7 @@ import { Card, Col, Row, Statistic, Tooltip } from 'antd';
 
 function PlayerCard({ player }) {
   const acsText =
-    'Average Combat Score: Calculated from damage, kills, multikills, assists and round scores.';
+    'Average Combat Score: Calculated from damage, kills, multikills, assists and round scores. The higher the better.';
   const kdaText = 'Kills/Deaths/Assists';
   const kdText = 'Kill/Death ratio';
   const econText =
