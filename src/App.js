@@ -9,22 +9,22 @@ function App() {
   const { Footer, Content } = Layout;
 
   return (
-    <Router>
+    <Router basename="/uwccf-valorant">
       <Layout className="layout">
         <Navbar />
 
         <Content className="site-layout-content">
           <Switch>
-            <Route path="/rules">
+            <Route exact path="/rules">
               <RulesPage />
             </Route>
-            <Route path="/teams">
+            <Route exact path="/teams">
               <TeamsPage />
             </Route>
             {/* <Route path="/bracket">
               <BracketPage />
             </Route> */}
-            <Route path="/">
+            <Route exact path="/">
               <HomePage />
             </Route>
           </Switch>
