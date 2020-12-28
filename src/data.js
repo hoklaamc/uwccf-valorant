@@ -91,6 +91,52 @@ export const teams = [
       },
     ],
   },
+  {
+    id: 2,
+    name: 'The Mashed Potatoes',
+    players: [
+      {
+        name: 'Shotblast01',
+        acs: 0,
+        kills: 0,
+        deaths: 0,
+        assists: 0,
+        econ: 0,
+      },
+      {
+        name: 'mb4wong',
+        acs: 0,
+        kills: 0,
+        deaths: 0,
+        assists: 0,
+        econ: 0,
+      },
+      {
+        name: 'OGKigar',
+        acs: 0,
+        kills: 0,
+        deaths: 0,
+        assists: 0,
+        econ: 0,
+      },
+      {
+        name: 'DWong03',
+        acs: 0,
+        kills: 0,
+        deaths: 0,
+        assists: 0,
+        econ: 0,
+      },
+      {
+        name: 'Imfromseason2',
+        acs: 0,
+        kills: 0,
+        deaths: 0,
+        assists: 0,
+        econ: 0,
+      },
+    ],
+  },
 ];
 
 // export const games = [
