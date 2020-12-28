@@ -21,6 +21,7 @@ function HomePage() {
         type="primary"
         size="large"
         href="https://forms.gle/KpF5yikaPrdhvUef7"
+        target="_blank"
       >
         Sign up (Deadline 11:59pm EST, Sunday Dec 27 2020)
       </Button>
