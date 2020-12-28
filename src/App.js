@@ -1,7 +1,7 @@
 import './App.css';
 import 'antd/dist/antd.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import { BracketPage, HomePage, RulesPage, TeamsPage } from './pages';
+import { GamesPage, RulesPage, TeamsPage, HomePage } from './pages';
 import { Layout } from 'antd';
 import { Navbar } from './components';
 
@@ -23,6 +23,9 @@ function App() {
             {/* <Route path="/bracket">
               <BracketPage />
             </Route> */}
+            <Route exact path="/games">
+              <GamesPage />
+            </Route>
             <Route exact path="/">
               <HomePage />
             </Route>
