@@ -15,12 +15,16 @@ function Navbar() {
             theme="dark"
             mode="horizontal"
             defaultSelectedKeys={[location.pathname]}
+            selectedKeys={[location.pathname]}
           >
             <Menu.Item key="/">
               <Link to="/">Home</Link>
             </Menu.Item>
             <Menu.Item key="/rules">
               <Link to="/rules">Rules</Link>
+            </Menu.Item>
+            <Menu.Item key="/games">
+              <Link to="/games">Games</Link>
             </Menu.Item>
             <Menu.Item key="/teams">
               <Link to="/teams">Teams</Link>
