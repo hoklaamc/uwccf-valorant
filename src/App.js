@@ -10,7 +10,7 @@ function App() {
 
   return (
     <Router basename="/uwccf-valorant">
-      <Layout className="layout full-height">
+      <Layout className="layout" style={{ minHeight: '100vh' }}>
         <Navbar />
         <Content className="site-layout-content full-height">
           <Switch>
