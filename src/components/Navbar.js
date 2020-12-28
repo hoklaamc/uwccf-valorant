@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Col, Layout, Menu, Row } from 'antd';
+import { Col, Layout, Menu, Row } from 'antd';
 import { Link, useLocation } from 'react-router-dom';
 
 function Navbar() {
