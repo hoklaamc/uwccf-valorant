@@ -134,7 +134,7 @@ export const teams = [
         econ: 0,
       },
       {
-        name: 'Imfromseason2',
+        name: 'ImFromSeason2',
         acs: 0,
         kills: 0,
         deaths: 0,
