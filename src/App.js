@@ -1,24 +1,39 @@
-import logo from './logo.svg';
 import './App.css';
+import 'antd/dist/antd.css';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BracketPage, HomePage, RulesPage, TeamsPage } from './pages';
+import { Layout } from 'antd';
+import { Navbar } from './components';
 
 function App() {
+  const { Footer, Content } = Layout;
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Layout className="layout">
+        <Navbar />
+
+        <Content className="site-layout-content">
+          <Switch>
+            <Route path="/rules">
+              <RulesPage />
+            </Route>
+            <Route path="/teams">
+              <TeamsPage />
+            </Route>
+            {/* <Route path="/bracket">
+              <BracketPage />
+            </Route> */}
+            <Route path="/">
+              <HomePage />
+            </Route>
+          </Switch>
+        </Content>
+        <Footer style={{ textAlign: 'center' }}>
+          UWCCF Valorant ©2020 Created by hoklaamc
+        </Footer>
+      </Layout>
+    </Router>
   );
 }
 
