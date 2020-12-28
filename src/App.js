@@ -10,10 +10,10 @@ function App() {
 
   return (
     <Router basename="/uwccf-valorant">
-      <Layout className="layout">
+      <Layout className="layout full-height">
         <Navbar />
 
-        <Content className="site-layout-content">
+        <Content className="site-layout-content full-height">
           <Switch>
             <Route exact path="/rules">
               <RulesPage />

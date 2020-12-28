@@ -1,5 +1,14 @@
 .App {
   padding: 20px;
+  height: 100%;
+}
+
+html,
+body,
+#root,
+#root > div {
+  height: 100%;
+  width: 100%;
 }
 
 .site-layout-content {
@@ -7,4 +16,8 @@
   padding: 24px;
   background: #fff;
   margin: 64px 0;
+}
+
+.full-height {
+  height: 100%;
 }
