@@ -7,15 +7,14 @@ function TeamsPage() {
   const { Title } = Typography;
   return (
     <Row>
-      <Col span={6} />
-      <Col span={12}>
+      <Col md={{ span: 12, offset: 6 }} span={24}>
         <Title>Teams</Title>
         {teams.map(team => (
           <div style={{ marginBottom: '16px' }}>
             <Title level={2}>{team.name}</Title>
             <Row gutter={24}>
               {team.players.map(player => (
-                <Col span={8}>
+                <Col md={8} span={12}>
                   <PlayerCard player={player} />
                 </Col>
               ))}
@@ -23,7 +22,6 @@ function TeamsPage() {
           </div>
         ))}
       </Col>
-      <Col span={6} />
     </Row>
   );
 }

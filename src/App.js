@@ -12,7 +12,6 @@ function App() {
     <Router basename="/uwccf-valorant">
       <Layout className="layout full-height">
         <Navbar />
-
         <Content className="site-layout-content full-height">
           <Switch>
             <Route exact path="/rules">

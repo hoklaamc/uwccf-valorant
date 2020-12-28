@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, Layout, Menu, Row } from 'antd';
+import { Button, Col, Layout, Menu, Row } from 'antd';
 import { Link, useLocation } from 'react-router-dom';
 
 function Navbar() {
@@ -10,8 +10,7 @@ function Navbar() {
     <Header style={{ position: 'fixed', zIndex: 1, width: '100%' }}>
       <div className="logo" />
       <Row>
-        <Col span={7} />
-        <Col span={10}>
+        <Col span={10} offset={7}>
           <Menu
             theme="dark"
             mode="horizontal"
@@ -31,7 +30,6 @@ function Navbar() {
         </Menu.Item> */}
           </Menu>
         </Col>
-        <Col span={7} />
       </Row>
     </Header>
   );

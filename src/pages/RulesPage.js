@@ -5,8 +5,7 @@ function RulesPage() {
   const { Paragraph, Text, Title } = Typography;
   return (
     <Row>
-      <Col span={7} />
-      <Col span={10}>
+      <Col span={10} offset={7}>
         <Paragraph>
           The goal of this tournament is for friends and friends of friends to
           come together and enjoy a chill time of gaming together.
@@ -24,7 +23,6 @@ function RulesPage() {
           <li>Message Hok to request a reschedule</li>
         </ul>
       </Col>
-      <Col span={7} />
     </Row>
   );
 }
