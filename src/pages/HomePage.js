@@ -1,11 +1,16 @@
 import './pages.css';
 import React from 'react';
-import { Button, Typography } from 'antd';
+import { Button, Image, Typography } from 'antd';
 
 function HomePage() {
   const { Title, Paragraph } = Typography;
   return (
     <div className="home-content">
+      <Image
+        src="https://img.icons8.com/plasticine/2x/valorant.png"
+        alt="Valorant logo"
+        preview={false}
+      />
       <Title>UWCCF Valorant</Title>
       <Paragraph>Dec 28 2020 - Jan 10 2021</Paragraph>
       <Paragraph strong>
