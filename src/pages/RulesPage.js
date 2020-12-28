@@ -5,7 +5,7 @@ function RulesPage() {
   const { Paragraph, Text, Title } = Typography;
   return (
     <Row>
-      <Col span={10} offset={7}>
+      <Col md={{ span: 10, offset: 7 }} span={24}>
         <Paragraph>
           The goal of this tournament is for friends and friends of friends to
           come together and enjoy a chill time of gaming together.

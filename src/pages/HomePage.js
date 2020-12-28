@@ -22,9 +22,11 @@ function HomePage() {
         size="large"
         href="https://forms.gle/KpF5yikaPrdhvUef7"
         target="_blank"
+        style={{ display: 'inline-block' }}
       >
-        Sign up (Deadline 11:59pm EST, Sunday Dec 27 2020)
+        Sign up
       </Button>
+      <Paragraph>Deadline 11:59pm EST, Sunday Dec 27 2020</Paragraph>
     </div>
   );
 }

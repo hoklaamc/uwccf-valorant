@@ -10,7 +10,7 @@ function Navbar() {
     <Header style={{ position: 'fixed', zIndex: 1, width: '100%' }}>
       <div className="logo" />
       <Row>
-        <Col span={10} offset={7}>
+        <Col md={{ span: 10, offset: 7 }} span={24}>
           <Menu
             theme="dark"
             mode="horizontal"
