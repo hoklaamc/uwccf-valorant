@@ -4,7 +4,7 @@ import { PlayerCard } from '../components';
 import { teams } from '../data';
 
 function TeamsPage() {
-  const { Title } = Typography;
+  const { Title, Text } = Typography;
   return (
     <Row>
       <Col md={{ span: 12, offset: 6 }} span={24}>
@@ -12,6 +12,9 @@ function TeamsPage() {
         {teams.map(team => (
           <div style={{ marginBottom: '16px' }}>
             <Title level={2}>{team.name}</Title>
+            <Text>
+              {team.wins} wins | {team.losses} losses
+            </Text>
             <Row gutter={24}>
               {team.players.map(player => (
                 <Col md={8} span={12}>

@@ -2,6 +2,8 @@ export const teams = [
   {
     id: 1,
     name: 'HCCFrosh',
+    wins: 0,
+    losses: 0,
     players: [
       {
         name: 'JO0F',
@@ -48,6 +50,8 @@ export const teams = [
   {
     id: 2,
     name: 'buncha guys ere',
+    wins: 0,
+    losses: 0,
     players: [
       {
         name: 'Bluelazer150',
@@ -94,6 +98,8 @@ export const teams = [
   {
     id: 2,
     name: 'The Mashed Potatoes',
+    wins: 0,
+    losses: 0,
     players: [
       {
         name: 'Shotblast01',
