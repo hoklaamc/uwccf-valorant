@@ -1,6 +1,7 @@
 import './pages.css';
 import React from 'react';
 import { Button, Image, Typography } from 'antd';
+import { Stream } from '../components';
 
 function HomePage() {
   const { Title, Paragraph } = Typography;
@@ -27,6 +28,7 @@ function HomePage() {
         Sign up
       </Button>
       <Paragraph>Deadline 11:59pm EST, Sunday Dec 27 2020</Paragraph>
+      {/* <Stream /> */}
     </div>
   );
 }
