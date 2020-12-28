@@ -295,6 +295,54 @@ export const teams = [
       },
     ],
   },
+  {
+    id: 7,
+    name: 'Team 7',
+    wins: 0,
+    losses: 0,
+    players: [
+      {
+        name: 'Jeffelini',
+        acs: 0,
+        kills: 0,
+        deaths: 0,
+        assists: 0,
+        econ: 0,
+      },
+      {
+        name: 'Cowvan',
+        acs: 0,
+        kills: 0,
+        deaths: 0,
+        assists: 0,
+        econ: 0,
+      },
+      {
+        name: 'airade',
+        acs: 0,
+        kills: 0,
+        deaths: 0,
+        assists: 0,
+        econ: 0,
+      },
+      {
+        name: 'destiger',
+        acs: 0,
+        kills: 0,
+        deaths: 0,
+        assists: 0,
+        econ: 0,
+      },
+      {
+        name: 'cutebugst3r',
+        acs: 0,
+        kills: 0,
+        deaths: 0,
+        assists: 0,
+        econ: 0,
+      },
+    ],
+  },
 ];
 
 // export const games = [
