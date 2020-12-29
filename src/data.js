@@ -343,6 +343,54 @@ export const teams = [
       },
     ],
   },
+  {
+    id: 8,
+    name: 'Unnamed Team',
+    wins: 0,
+    losses: 0,
+    players: [
+      {
+        name: 'TBD',
+        acs: 0,
+        kills: 0,
+        deaths: 0,
+        assists: 0,
+        econ: 0,
+      },
+      {
+        name: 'TBD',
+        acs: 0,
+        kills: 0,
+        deaths: 0,
+        assists: 0,
+        econ: 0,
+      },
+      {
+        name: 'TBD',
+        acs: 0,
+        kills: 0,
+        deaths: 0,
+        assists: 0,
+        econ: 0,
+      },
+      {
+        name: 'TBD',
+        acs: 0,
+        kills: 0,
+        deaths: 0,
+        assists: 0,
+        econ: 0,
+      },
+      {
+        name: 'TBD',
+        acs: 0,
+        kills: 0,
+        deaths: 0,
+        assists: 0,
+        econ: 0,
+      },
+    ],
+  },
 ];
 
 export const games = [
@@ -351,7 +399,7 @@ export const games = [
     game: 'UB Round 1 Game 1',
     datetime: new Date(2020, 0, 2, 20, 0, 0).toDateString(),
     team1: 'HCCFrosh',
-    team2: "Frank's Team",
+    team2: 'Unnamed Team',
     score: null,
     vod: 'https://www.twitch.tv/hoklaamc/',
   },
