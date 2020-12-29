@@ -9,7 +9,7 @@ function Gamespage() {
   const { Column } = Table;
   return (
     <Row>
-      <Col md={{ span: 12, offset: 6 }} span={24}>
+      <Col md={{ span: 14, offset: 5 }} span={24}>
         <Title>Games</Title>
         <Table dataSource={games} pagination={false}>
           <Column title="Game" dataIndex="game" key="game" />
