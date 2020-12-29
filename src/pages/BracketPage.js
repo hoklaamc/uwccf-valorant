@@ -10,15 +10,7 @@ function BracketPage() {
     <Row>
       <Col md={{ span: 10, offset: 7 }} span={24}>
         <Title>Tournament Bracket</Title>
-        <Document
-          file={bracketPdf}
-          onLoadSuccess={() => {
-            console.log('success');
-          }}
-          onSourceSuccess={() => {
-            console.log('source success');
-          }}
-        >
+        <Document file={bracketPdf}>
           <Page pageNumber={1} />
         </Document>
       </Col>
