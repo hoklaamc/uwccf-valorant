@@ -3,7 +3,7 @@ import 'antd/dist/antd.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import {
   BracketPage,
-  GamesPage,
+  SchedulePage,
   RulesPage,
   TeamsPage,
   HomePage,
@@ -29,8 +29,8 @@ function App() {
             <Route path="/bracket">
               <BracketPage />
             </Route>
-            <Route exact path="/games">
-              <GamesPage />
+            <Route exact path="/schedule">
+              <SchedulePage />
             </Route>
             <Route exact path="/">
               <HomePage />

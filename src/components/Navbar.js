@@ -23,8 +23,8 @@ function Navbar() {
             <Menu.Item key="/rules">
               <Link to="/rules">Rules</Link>
             </Menu.Item>
-            <Menu.Item key="/games">
-              <Link to="/games">Games</Link>
+            <Menu.Item key="/schedule">
+              <Link to="/schedule">Schedule</Link>
             </Menu.Item>
             <Menu.Item key="/teams">
               <Link to="/teams">Teams</Link>

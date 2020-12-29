@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTwitch } from '@fortawesome/free-brands-svg-icons';
 import { games } from '../data';
 
-function Gamespage() {
+function SchedulePage() {
   const { Title } = Typography;
   const { Column } = Table;
 
@@ -14,7 +14,7 @@ function Gamespage() {
   return (
     <Row>
       <Col md={{ span: 14, offset: 5 }} span={24}>
-        <Title>Games</Title>
+        <Title>Schedule</Title>
         <Table dataSource={games} pagination={false}>
           <Column title="Game" dataIndex="game" key="game" />
           <Column title="Date/time" dataIndex="datetime" key="datetime" />
@@ -49,4 +49,4 @@ function Gamespage() {
   );
 }
 
-export default Gamespage;
+export default SchedulePage;

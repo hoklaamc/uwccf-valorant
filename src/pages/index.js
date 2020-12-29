@@ -2,6 +2,6 @@ import BracketPage from './BracketPage';
 import HomePage from './HomePage';
 import RulesPage from './RulesPage';
 import TeamsPage from './TeamsPage';
-import GamesPage from './GamesPage';
+import SchedulePage from './SchedulePage';
 
-export { BracketPage, GamesPage, HomePage, RulesPage, TeamsPage };
+export { BracketPage, SchedulePage, HomePage, RulesPage, TeamsPage };
