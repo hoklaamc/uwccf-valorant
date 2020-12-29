@@ -1,6 +1,6 @@
 import './pages.css';
 import React from 'react';
-import { Button, Image, Typography } from 'antd';
+import { Image, Typography } from 'antd';
 import { Stream } from '../components';
 
 function HomePage() {
