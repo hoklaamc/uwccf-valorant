@@ -15,7 +15,7 @@ function App() {
   const { Footer, Content } = Layout;
 
   return (
-    <Router basename="/uwccf-valorant">
+    <Router basename={process.env.PUBLIC_URL}>
       <Layout className="layout" style={{ minHeight: '100vh' }}>
         <Navbar />
         <Content className="site-layout-content full-height">
