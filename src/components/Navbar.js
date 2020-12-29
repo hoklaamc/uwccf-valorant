@@ -29,9 +29,9 @@ function Navbar() {
             <Menu.Item key="/teams">
               <Link to="/teams">Teams</Link>
             </Menu.Item>
-            {/* <Menu.Item key="bracket">
-          <Link to="/bracket">Bracket</Link>
-        </Menu.Item> */}
+            <Menu.Item key="bracket">
+              <Link to="/bracket">Bracket</Link>
+            </Menu.Item>
           </Menu>
         </Col>
       </Row>

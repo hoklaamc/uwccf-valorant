@@ -345,48 +345,44 @@ export const teams = [
   },
 ];
 
-// export const games = [
-//   {
-//     id: '1',
-//     name: 'Grand Finals',
-//     scheduled: new Date(2020, 0, 9, 20, 0, 0).toUTCString(),
-//     sides: {
-//       home: {
-//         seed: {
-//           displayName: 'Winner of upper bracket finals',
-//           // Upper bracket
-//           sourceGame: {
-//             id: '2',
-//             name: 'Upper bracket finals',
-//             scheduled: new Date(2020, 0, 8, 20, 0, 0).toUTCString(),
-//             sides: {
-//               home: {
-//                 team: teams.hccfrosh,
-//               },
-//               visitor: {
-//                 team: teams.hoks_team,
-//               },
-//             },
-//           },
-//         },
-//         team: teams.hoks_team,
-//       },
-//       visitor: {
-//         seed: {
-//           displayName: 'Winner of lower bracket finals',
-//           // Lower bracket
-//           sourceGame: {
-//             id: '3',
-//             name: 'Lower bracket finals',
-//             scheduled: new Date(2020, 0, 8, 20, 0, 0).toUTCString(),
-//             sides: {
-//               home: {},
-//               visitor: {},
-//             },
-//           },
-//         },
-//         team: teams.hoks_team,
-//       },
-//     },
-//   },
-// ];
+export const games = [
+  {
+    key: '1',
+    game: 'Round 1 Game 1',
+    datetime: new Date(2020, 0, 2, 20, 0, 0).toDateString(),
+    team1: 'HCCFrosh',
+    team2: "Frank's Team",
+    score1: null,
+    score2: null,
+    vod: 'https://www.twitch.tv/hoklaamc/clip/CrowdedAbstruseStarKeepo',
+  },
+  {
+    key: '2',
+    game: 'Round 1 Game 2',
+    datetime: new Date(2020, 11, 30, 21, 0, 0).toDateString(),
+    team1: 'The Mashed Potatoes',
+    team2: 'Team 7',
+    score: null,
+    vod: null,
+  },
+  {
+    key: '3',
+    game: 'Round 1 Game 3',
+    datetime: new Date(2021, 0, 2, 20, 0, 0).toDateString(),
+    team1: 'Mac X UW CCF',
+    team2: "Samson's Mullet",
+    score1: null,
+    score2: null,
+    vod: null,
+  },
+  {
+    key: '4',
+    game: 'Round 1 Game 4',
+    datetime: new Date(2021, 0, 2, 21, 0, 0).toDateString(),
+    team1: '(TSM) Team Servant (of Christ) Mid',
+    team2: 'buncha guys ere',
+    score1: null,
+    score2: null,
+    vod: null,
+  },
+];
