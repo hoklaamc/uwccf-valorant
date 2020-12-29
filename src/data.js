@@ -352,9 +352,8 @@ export const games = [
     datetime: new Date(2020, 0, 2, 20, 0, 0).toDateString(),
     team1: 'HCCFrosh',
     team2: "Frank's Team",
-    score1: null,
-    score2: null,
-    vod: 'https://www.twitch.tv/hoklaamc/clip/CrowdedAbstruseStarKeepo',
+    score: null,
+    vod: 'https://www.twitch.tv/hoklaamc/',
   },
   {
     key: '2',
@@ -363,7 +362,7 @@ export const games = [
     team1: 'The Mashed Potatoes',
     team2: 'Team 7',
     score: null,
-    vod: null,
+    vod: 'https://www.twitch.tv/hoklaamc/',
   },
   {
     key: '3',
@@ -371,9 +370,8 @@ export const games = [
     datetime: new Date(2021, 0, 2, 20, 0, 0).toDateString(),
     team1: 'Mac X UW CCF',
     team2: "Samson's Mullet",
-    score1: null,
-    score2: null,
-    vod: null,
+    score: null,
+    vod: 'https://www.twitch.tv/hoklaamc/',
   },
   {
     key: '4',
@@ -381,8 +379,7 @@ export const games = [
     datetime: new Date(2021, 0, 2, 21, 0, 0).toDateString(),
     team1: '(TSM) Team Servant (of Christ) Mid',
     team2: 'buncha guys ere',
-    score1: null,
-    score2: null,
-    vod: null,
+    score: null,
+    vod: 'https://www.twitch.tv/hoklaamc/',
   },
 ];

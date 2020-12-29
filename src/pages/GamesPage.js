@@ -18,7 +18,7 @@ function Gamespage() {
           <Column title="Result" dataIndex="result" key="result" />
           <Column title="Team 2" dataIndex="team2" key="team2" />
           <Column
-            title="VOD"
+            title="Stream/VOD"
             dataIndex="vod"
             key="vod"
             render={vod =>
