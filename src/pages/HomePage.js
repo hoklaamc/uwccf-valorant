@@ -18,7 +18,7 @@ function HomePage() {
         A for-fun Valorant tournament with those in the UWCCF community and
         friends!
       </Paragraph>
-      <Button
+      {/* <Button
         type="primary"
         size="large"
         href="https://forms.gle/KpF5yikaPrdhvUef7"
@@ -27,7 +27,7 @@ function HomePage() {
       >
         Sign up
       </Button>
-      <Paragraph>Deadline 11:59pm EST, Sunday Dec 27 2020</Paragraph>
+      <Paragraph>Deadline 11:59pm EST, Sunday Dec 27 2020</Paragraph> */}
       {/* <Stream /> */}
     </div>
   );
