@@ -402,6 +402,7 @@ export const games = [
     team2: 'Unnamed Team',
     score: null,
     vod: 'https://www.twitch.tv/hoklaamc/',
+    tentative: false,
   },
   {
     key: '2',
@@ -411,6 +412,7 @@ export const games = [
     team2: 'Team 7',
     score: null,
     vod: 'https://www.twitch.tv/hoklaamc/',
+    tentative: false,
   },
   {
     key: '3',
@@ -420,6 +422,7 @@ export const games = [
     team2: "Samson's Mullet",
     score: null,
     vod: 'https://www.twitch.tv/hoklaamc/',
+    tentative: false,
   },
   {
     key: '4',
@@ -429,6 +432,7 @@ export const games = [
     team2: 'buncha guys ere',
     score: null,
     vod: 'https://www.twitch.tv/hoklaamc/',
+    tentative: false,
   },
   {
     key: '5',
@@ -438,6 +442,7 @@ export const games = [
     team2: 'Loser of UB Round 1 Game 2',
     score: null,
     vod: 'https://www.twitch.tv/hoklaamc/',
+    tentative: true,
   },
   {
     key: '6',
@@ -447,6 +452,7 @@ export const games = [
     team2: 'Loser of UB Round 1 Game 4',
     score: null,
     vod: 'https://www.twitch.tv/hoklaamc/',
+    tentative: true,
   },
   {
     key: '7',
@@ -456,6 +462,7 @@ export const games = [
     team2: 'Winner of UB Round 1 Game 2',
     score: null,
     vod: 'https://www.twitch.tv/hoklaamc/',
+    tentative: true,
   },
   {
     key: '8',
@@ -465,6 +472,7 @@ export const games = [
     team2: 'Winner of UB Round 1 Game 4',
     score: null,
     vod: 'https://www.twitch.tv/hoklaamc/',
+    tentative: true,
   },
   {
     key: '9',
@@ -474,6 +482,7 @@ export const games = [
     team2: 'Loser of UB Round 2 Game 2',
     score: null,
     vod: 'https://www.twitch.tv/hoklaamc/',
+    tentative: true,
   },
   {
     key: '10',
@@ -483,6 +492,7 @@ export const games = [
     team2: 'Loser of UB Round 2 Game 1',
     score: null,
     vod: 'https://www.twitch.tv/hoklaamc/',
+    tentative: true,
   },
   {
     key: '11',
@@ -492,6 +502,7 @@ export const games = [
     team2: 'Winner of LB Round 2 Game 2',
     score: null,
     vod: 'https://www.twitch.tv/hoklaamc/',
+    tentative: true,
   },
   {
     key: '12',
@@ -501,6 +512,7 @@ export const games = [
     team2: 'Winner of UB Round 2 Game 2',
     score: null,
     vod: 'https://www.twitch.tv/hoklaamc/',
+    tentative: true,
   },
   {
     key: '13',
@@ -510,6 +522,7 @@ export const games = [
     team2: 'Loser of UB Finals',
     score: null,
     vod: 'https://www.twitch.tv/hoklaamc/',
+    tentative: true,
   },
   {
     key: '14',
@@ -519,5 +532,6 @@ export const games = [
     team2: 'Winner of LB Finals',
     score: null,
     vod: 'https://www.twitch.tv/hoklaamc/',
+    tentative: true,
   },
 ];
