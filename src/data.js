@@ -397,7 +397,7 @@ export const games = [
   {
     key: '1',
     game: 'UB Round 1 Game 1',
-    datetime: new Date(2020, 0, 2, 20, 0, 0).toDateString(),
+    datetime: 'Wed Dec 30 2020 20:00 EST',
     team1: 'HCCFrosh',
     team2: 'Unnamed Team',
     score: null,
@@ -406,7 +406,7 @@ export const games = [
   {
     key: '2',
     game: 'UB Round 1 Game 2',
-    datetime: new Date(2020, 11, 30, 21, 0, 0).toDateString(),
+    datetime: 'Wed Dec 30 2020 21:00 EST',
     team1: 'The Mashed Potatoes',
     team2: 'Team 7',
     score: null,
@@ -415,7 +415,7 @@ export const games = [
   {
     key: '3',
     game: 'UB Round 1 Game 3',
-    datetime: new Date(2021, 0, 2, 20, 0, 0).toDateString(),
+    datetime: 'Sat Jan 2 2020 20:00 EST',
     team1: 'Mac X UW CCF',
     team2: "Samson's Mullet",
     score: null,
@@ -424,7 +424,7 @@ export const games = [
   {
     key: '4',
     game: 'UB Round 1 Game 4',
-    datetime: new Date(2021, 0, 2, 21, 0, 0).toDateString(),
+    datetime: 'Sat Jan 2 2020 21:00 EST',
     team1: '(TSM) Team Servant (of Christ) Mid',
     team2: 'buncha guys ere',
     score: null,
@@ -433,7 +433,7 @@ export const games = [
   {
     key: '5',
     game: 'LB Round 1 Game 1',
-    datetime: new Date(2021, 0, 3, 20, 0, 0).toDateString(),
+    datetime: 'Sun Jan 3 2020 20:00 EST',
     team1: 'Loser of UB Round 1 Game 1',
     team2: 'Loser of UB Round 1 Game 2',
     score: null,
@@ -442,7 +442,7 @@ export const games = [
   {
     key: '6',
     game: 'LB Round 1 Game 2',
-    datetime: new Date(2021, 0, 3, 21, 0, 0).toDateString(),
+    datetime: 'Sun Jan 3 2020 21:00 EST',
     team1: 'Loser of UB Round 1 Game 3',
     team2: 'Loser of UB Round 1 Game 4',
     score: null,
@@ -451,7 +451,7 @@ export const games = [
   {
     key: '7',
     game: 'UB Round 2 Game 1',
-    datetime: new Date(2021, 0, 4, 20, 0, 0).toDateString(),
+    datetime: 'Mon Jan 4 2020 20:00 EST',
     team1: 'Winner of UB Round 1 Game 1',
     team2: 'Winner of UB Round 1 Game 2',
     score: null,
@@ -460,7 +460,7 @@ export const games = [
   {
     key: '8',
     game: 'UB Round 2 Game 2',
-    datetime: new Date(2021, 0, 4, 21, 0, 0).toDateString(),
+    datetime: 'Mon Jan 4 2020 21:00 EST',
     team1: 'Winner of UB Round 1 Game 3',
     team2: 'Winner of UB Round 1 Game 4',
     score: null,
@@ -469,7 +469,7 @@ export const games = [
   {
     key: '9',
     game: 'LB Round 2 Game 1',
-    datetime: new Date(2021, 0, 5, 20, 0, 0).toDateString(),
+    datetime: 'Tue Jan 5 2020 20:00 EST',
     team1: 'Winner of LB Round 1 Game 1',
     team2: 'Loser of UB Round 2 Game 2',
     score: null,
@@ -478,7 +478,7 @@ export const games = [
   {
     key: '10',
     game: 'LB Round 2 Game 2',
-    datetime: new Date(2021, 0, 5, 21, 0, 0).toDateString(),
+    datetime: 'Tue Jan 5 2020 21:00 EST',
     team1: 'Winner of LB Round 1 Game 2',
     team2: 'Loser of UB Round 2 Game 1',
     score: null,
@@ -487,7 +487,7 @@ export const games = [
   {
     key: '11',
     game: 'LB Round 3',
-    datetime: new Date(2021, 0, 6, 21, 0, 0).toDateString(),
+    datetime: 'Wed Jan 6 2020 21:00 EST',
     team1: 'Winner of LB Round 2 Game 1',
     team2: 'Winner of LB Round 2 Game 2',
     score: null,
@@ -496,7 +496,7 @@ export const games = [
   {
     key: '12',
     game: 'UB Finals',
-    datetime: new Date(2021, 0, 7, 21, 0, 0).toDateString(),
+    datetime: 'Thu Jan 7 2020 21:00 EST',
     team1: 'Winner of UB Round 2 Game 1',
     team2: 'Winner of UB Round 2 Game 2',
     score: null,
@@ -505,7 +505,7 @@ export const games = [
   {
     key: '13',
     game: 'LB Finals',
-    datetime: new Date(2021, 0, 8, 21, 0, 0).toDateString(),
+    datetime: 'Fri Jan 8 2020 21:00 EST',
     team1: 'Winner of LB Round 3',
     team2: 'Loser of UB Finals',
     score: null,
@@ -514,7 +514,7 @@ export const games = [
   {
     key: '14',
     game: 'Grand Finals',
-    datetime: new Date(2021, 0, 9, 20, 0, 0).toDateString(),
+    datetime: 'Sat Jan 9 2020 20:00 EST',
     team1: 'Winner of UB Finals',
     team2: 'Winner of LB Finals',
     score: null,
