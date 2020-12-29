@@ -1,25 +1,26 @@
 {
   "files": {
     "main.css": "/uwccf-valorant/static/css/main.4654fdc9.chunk.css",
-    "main.js": "/uwccf-valorant/static/js/main.a4842173.chunk.js",
-    "main.js.map": "/uwccf-valorant/static/js/main.a4842173.chunk.js.map",
-    "runtime-main.js": "/uwccf-valorant/static/js/runtime-main.fb392953.js",
-    "runtime-main.js.map": "/uwccf-valorant/static/js/runtime-main.fb392953.js.map",
+    "main.js": "/uwccf-valorant/static/js/main.8865c1cd.chunk.js",
+    "main.js.map": "/uwccf-valorant/static/js/main.8865c1cd.chunk.js.map",
+    "runtime-main.js": "/uwccf-valorant/static/js/runtime-main.91ad997d.js",
+    "runtime-main.js.map": "/uwccf-valorant/static/js/runtime-main.91ad997d.js.map",
     "static/css/2.4d98ed14.chunk.css": "/uwccf-valorant/static/css/2.4d98ed14.chunk.css",
-    "static/js/2.6e673ce6.chunk.js": "/uwccf-valorant/static/js/2.6e673ce6.chunk.js",
-    "static/js/2.6e673ce6.chunk.js.map": "/uwccf-valorant/static/js/2.6e673ce6.chunk.js.map",
-    "static/js/3.6949ad34.chunk.js": "/uwccf-valorant/static/js/3.6949ad34.chunk.js",
-    "static/js/3.6949ad34.chunk.js.map": "/uwccf-valorant/static/js/3.6949ad34.chunk.js.map",
+    "static/js/2.07f89031.chunk.js": "/uwccf-valorant/static/js/2.07f89031.chunk.js",
+    "static/js/2.07f89031.chunk.js.map": "/uwccf-valorant/static/js/2.07f89031.chunk.js.map",
+    "static/js/3.3853f3ca.chunk.js": "/uwccf-valorant/static/js/3.3853f3ca.chunk.js",
+    "static/js/3.3853f3ca.chunk.js.map": "/uwccf-valorant/static/js/3.3853f3ca.chunk.js.map",
     "index.html": "/uwccf-valorant/index.html",
     "static/css/2.4d98ed14.chunk.css.map": "/uwccf-valorant/static/css/2.4d98ed14.chunk.css.map",
     "static/css/main.4654fdc9.chunk.css.map": "/uwccf-valorant/static/css/main.4654fdc9.chunk.css.map",
-    "static/js/2.6e673ce6.chunk.js.LICENSE.txt": "/uwccf-valorant/static/js/2.6e673ce6.chunk.js.LICENSE.txt"
+    "static/js/2.07f89031.chunk.js.LICENSE.txt": "/uwccf-valorant/static/js/2.07f89031.chunk.js.LICENSE.txt",
+    "static/media/bracket.461a8304.pdf": "/uwccf-valorant/static/media/bracket.461a8304.pdf"
   },
   "entrypoints": [
-    "static/js/runtime-main.fb392953.js",
+    "static/js/runtime-main.91ad997d.js",
     "static/css/2.4d98ed14.chunk.css",
-    "static/js/2.6e673ce6.chunk.js",
+    "static/js/2.07f89031.chunk.js",
     "static/css/main.4654fdc9.chunk.css",
-    "static/js/main.a4842173.chunk.js"
+    "static/js/main.8865c1cd.chunk.js"
   ]
 }
