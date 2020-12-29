@@ -8,7 +8,7 @@ function BracketPage() {
   const { Title } = Typography;
   return (
     <Row>
-      <Col md={{ span: 10, offset: 7 }} span={24}>
+      <Col md={{ span: 14, offset: 5 }} span={24}>
         <Title>Tournament Bracket</Title>
         <Document file={bracketPdf}>
           <Page pageNumber={1} />
