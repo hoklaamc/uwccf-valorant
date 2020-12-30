@@ -16,30 +16,32 @@ function RulesPage() {
           <Text strong> casual</Text>.
         </Paragraph>
         <Title>Format</Title>
-        <li>
-          Double elimination format. Lose two and you're out. See the{' '}
-          <Link to="/bracket">bracket</Link>
-        </li>
-        <li>
-          All games are best of 1, except for the grand finals, which is a best
-          of 3.
-        </li>
-        <li>
-          Grand finals map bans:
-          <ol>
-            <li>Upper bracket winner bans a map.</li>
-            <li>
-              Upper bracket winner picks a map. This will be the first map.
-            </li>
-            <li>
-              Lower bracket winner picks a map. This will be the second map.
-            </li>
-            <li>
-              Upper bracket winner picks a map. This will be the third map, if
-              needed.
-            </li>
-          </ol>
-        </li>
+        <ul>
+          <li>
+            Double elimination format. Lose two and you're out. See the{' '}
+            <Link to="/bracket">bracket</Link>
+          </li>
+          <li>
+            All games are best of 1, except for the grand finals, which is a
+            best of 3.
+          </li>
+          <li>
+            Grand finals map bans:
+            <ol>
+              <li>Upper bracket winner bans a map.</li>
+              <li>
+                Upper bracket winner picks a map. This will be the first map.
+              </li>
+              <li>
+                Lower bracket winner picks a map. This will be the second map.
+              </li>
+              <li>
+                Upper bracket winner picks a map. This will be the third map, if
+                needed.
+              </li>
+            </ol>
+          </li>
+        </ul>
         <Title>Rules</Title>
         <ul>
           <li>Teams can have at most 2 diamond + players</li>
