@@ -396,7 +396,7 @@ export const teams = [
 export const games = [
   {
     key: '1',
-    game: 'UB Round 1 Game 2',
+    game: 'UB Round 1 Game 1',
     datetime: 'Wed Dec 30 2020 21:00 EST',
     team1: 'The Mashed Potatoes',
     team2: 'Team 7',
@@ -505,7 +505,7 @@ export const games = [
   },
   {
     key: '2',
-    game: 'UB Round 1 Game 1',
+    game: 'UB Round 1 Game 3',
     datetime: 'Sat Jan 2 2020 19:00 EST',
     team1: 'HCCFrosh',
     team2: 'iron chefs',
@@ -516,7 +516,7 @@ export const games = [
   },
   {
     key: '3',
-    game: 'UB Round 1 Game 3',
+    game: 'UB Round 1 Game 4',
     datetime: 'Sat Jan 2 2020 20:00 EST',
     team1: 'Mac X UW CCF',
     team2: "Samson's Mullet",
@@ -527,7 +527,7 @@ export const games = [
   },
   {
     key: '4',
-    game: 'UB Round 1 Game 4',
+    game: 'UB Round 1 Game 2',
     datetime: 'Sat Jan 2 2020 21:00 EST',
     team1: '(TSM) Team Servant (of Christ) Mid',
     team2: 'buncha guys ere',
