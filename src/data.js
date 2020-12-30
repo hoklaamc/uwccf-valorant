@@ -345,12 +345,12 @@ export const teams = [
   },
   {
     id: 8,
-    name: 'Unnamed Team',
+    name: 'iron chefs',
     wins: 0,
     losses: 0,
     players: [
       {
-        name: 'TBD',
+        name: 'Cyanine',
         acs: 0,
         kills: 0,
         deaths: 0,
@@ -358,7 +358,7 @@ export const teams = [
         econ: 0,
       },
       {
-        name: 'TBD',
+        name: 'AceHelosis',
         acs: 0,
         kills: 0,
         deaths: 0,
@@ -366,7 +366,7 @@ export const teams = [
         econ: 0,
       },
       {
-        name: 'TBD',
+        name: 'yourgodname',
         acs: 0,
         kills: 0,
         deaths: 0,
@@ -374,7 +374,7 @@ export const teams = [
         econ: 0,
       },
       {
-        name: 'TBD',
+        name: 'dragonsp',
         acs: 0,
         kills: 0,
         deaths: 0,
@@ -382,7 +382,7 @@ export const teams = [
         econ: 0,
       },
       {
-        name: 'TBD',
+        name: 'bran',
         acs: 0,
         kills: 0,
         deaths: 0,
@@ -508,7 +508,7 @@ export const games = [
     game: 'UB Round 1 Game 1',
     datetime: 'Sat Jan 2 2020 19:00 EST',
     team1: 'HCCFrosh',
-    team2: 'Unnamed Team',
+    team2: 'iron chefs',
     maps: [],
     score: null,
     vod: 'https://www.twitch.tv/hoklaamc/',
