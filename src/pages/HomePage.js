@@ -28,7 +28,7 @@ function HomePage() {
         Sign up
       </Button>
       <Paragraph>Deadline 11:59pm EST, Sunday Dec 27 2020</Paragraph> */}
-      {/* <Stream /> */}
+      <Stream />
     </div>
   );
 }

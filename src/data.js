@@ -500,7 +500,7 @@ export const games = [
       },
     ],
     score: null,
-    vod: 'https://www.twitch.tv/hoklaamc/',
+    vod: 'https://www.twitch.tv/dwarvesc/',
     tentative: false,
   },
   {
