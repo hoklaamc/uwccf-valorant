@@ -11,12 +11,13 @@ function GamePage() {
 
   const game = games.find(g => g.key === id.toString());
 
-  const columns = (
+  const columns = team => (
     <>
       <Column
-        title={game.team1}
+        title={team}
         dataIndex="name"
         key="name"
+        width={30}
         render={(recordName, record) => (
           <>
             <Image
@@ -47,10 +48,10 @@ function GamePage() {
           <div key={mapStats.map}>
             <Title>Map: {mapStats.map}</Title>
             <Table dataSource={mapStats.team1Stats} pagination={false}>
-              {columns}
+              {columns(game.team1)}
             </Table>
             <Table dataSource={mapStats.team2Stats} pagination={false}>
-              {columns}
+              {columns(game.team2)}
             </Table>
           </div>
         ))}
