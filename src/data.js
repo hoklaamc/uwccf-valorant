@@ -297,7 +297,7 @@ export const teams = [
   },
   {
     id: 7,
-    name: 'Team 7',
+    name: 'Team Iron + Daniel',
     wins: 0,
     losses: 0,
     players: [
@@ -399,7 +399,7 @@ export const games = [
     game: 'UB Round 1 Game 1',
     datetime: 'Wed Dec 30 2020 21:00 EST',
     team1: 'The Mashed Potatoes',
-    team2: 'Team 7',
+    team2: 'Team Iron + Daniel',
     maps: [
       {
         map: 'TBD',
