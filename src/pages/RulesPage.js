@@ -26,6 +26,28 @@ function RulesPage() {
             best of 3.
           </li>
           <li>
+            Map ban process:
+            <ol>
+              <li>
+                The winner of a coin toss decides whether they want to ban first
+                and pick side, or ban second and let the other team pick side.
+              </li>
+              <li>
+                The two teams then take turns banning maps until one remains.
+              </li>
+              <li>
+                The team that banned second then gets to pick which side they
+                start on.
+              </li>
+              <li>
+                Example: Team A wins the coin toss and decides to ban first and
+                pick side. Team A bans Icebox, team B bans Split, team A bans
+                Bind, team B bans Ascent (effectively spicking Haven as the
+                map). Team A then decides to start on attack.
+              </li>
+            </ol>
+          </li>
+          <li>
             Grand finals map bans:
             <ol>
               <li>Upper bracket winner bans a map.</li>
