@@ -36,14 +36,14 @@ function RulesPage() {
                 The two teams then take turns banning maps until one remains.
               </li>
               <li>
-                The team that banned second then gets to pick which side they
+                The team that banned first then gets to pick which side they
                 start on.
               </li>
               <li>
                 Example: Team A wins the coin toss and decides to ban first and
                 pick side. Team A bans Icebox, team B bans Split, team A bans
-                Bind, team B bans Ascent (effectively spicking Haven as the
-                map). Team A then decides to start on attack.
+                Bind, team B bans Ascent (effectively picking Haven as the map).
+                Team A then decides to start on attack.
               </li>
             </ol>
           </li>
