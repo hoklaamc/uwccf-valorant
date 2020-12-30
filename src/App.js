@@ -3,10 +3,11 @@ import 'antd/dist/antd.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import {
   BracketPage,
-  SchedulePage,
-  RulesPage,
-  TeamsPage,
+  GamePage,
   HomePage,
+  RulesPage,
+  SchedulePage,
+  TeamsPage,
 } from './pages';
 import { Layout } from 'antd';
 import { Navbar } from './components';
@@ -31,6 +32,9 @@ function App() {
             </Route>
             <Route exact path="/schedule">
               <SchedulePage />
+            </Route>
+            <Route exact path="/schedule/:id">
+              <GamePage />
             </Route>
             <Route exact path="/">
               <HomePage />
