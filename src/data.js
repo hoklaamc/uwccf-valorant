@@ -500,7 +500,7 @@ export const games = [
       },
     ],
     score: null,
-    vod: 'https://www.twitch.tv/dwarvesc/',
+    vod: 'https://www.twitch.tv/DwarveSC/',
     tentative: false,
   },
   {
