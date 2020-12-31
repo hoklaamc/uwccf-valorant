@@ -40,11 +40,11 @@ function SchedulePage() {
           />
           <Column
             title="Stream/VOD"
-            dataIndex="vod"
-            key="vod"
-            render={vod =>
-              vod ? (
-                <a href={vod} target="_blank" rel="noreferrer">
+            dataIndex="vodLink"
+            key="vodLink"
+            render={vodLink =>
+              vodLink ? (
+                <a href={vodLink} target="_blank" rel="noreferrer">
                   <FontAwesomeIcon icon={faTwitch} />
                 </a>
               ) : null

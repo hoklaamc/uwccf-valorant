@@ -12,9 +12,7 @@ function TeamsPage() {
         {teams.map(team => (
           <div style={{ marginBottom: '16px' }}>
             <Title level={2}>{team.name}</Title>
-            <Text>
-              {team.wins} wins | {team.losses} losses
-            </Text>
+            <Text>Games played: {team.gamesPlayed}</Text>
             <Row gutter={24}>
               {team.players.map(player => (
                 <Col md={8} span={12}>

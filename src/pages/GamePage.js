@@ -1,4 +1,5 @@
 import React from 'react';
+import { TwitchPlayer } from 'react-twitch-embed';
 import { Col, Image, Row, Table, Typography } from 'antd';
 import { useParams } from 'react-router-dom';
 import { games } from '../data';
@@ -28,10 +29,10 @@ function GamePage() {
           </>
         )}
       />
+      <Column title="ACS" dataIndex="acs" key="acs" />
       <Column title="Kills" dataIndex="kills" key="kills" />
       <Column title="Deaths" dataIndex="deaths" key="deaths" />
       <Column title="Assists" dataIndex="assists" key="assists" />
-      <Column title="ACS" dataIndex="acs" key="acs" />
       <Column title="ECON" dataIndex="econ" key="econ" />
     </>
   );
@@ -44,6 +45,19 @@ function GamePage() {
         </Title>
         <Paragraph>{game.game}</Paragraph>
         <Paragraph>{game.datetime}</Paragraph>
+        {game.vodId && game.vodIdTime && (
+          <div style={{ marginBottom: '16px' }}>
+            <TwitchPlayer
+              video={game.vodId}
+              time={game.vodIdTime}
+              theme="dark"
+              autoplay={false}
+              muted
+              width="100%"
+              withChat={false}
+            />
+          </div>
+        )}
         {game.maps.map(mapStats => (
           <div key={mapStats.map}>
             <Title>Map: {mapStats.map}</Title>

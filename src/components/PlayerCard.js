@@ -36,7 +36,7 @@ function PlayerCard({ player }) {
               value={
                 player.deaths === 0
                   ? 0
-                  : (player.kills / player.deaths).toFixed()
+                  : (player.kills / player.deaths).toFixed(2)
               }
               valueStyle={{ fontSize: '10px' }}
             />
