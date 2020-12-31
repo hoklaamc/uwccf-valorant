@@ -505,17 +505,6 @@ export const games = [
   },
   {
     key: '2',
-    game: 'UB Round 1 Game 3',
-    datetime: 'Sat Jan 2 2020 19:00 EST',
-    team1: 'HCCFrosh',
-    team2: 'iron chefs',
-    maps: [],
-    score: null,
-    vod: 'https://www.twitch.tv/hoklaamc/',
-    tentative: false,
-  },
-  {
-    key: '3',
     game: 'UB Round 1 Game 4',
     datetime: 'Sat Jan 2 2020 20:00 EST',
     team1: 'Mac X UW CCF',
@@ -525,6 +514,18 @@ export const games = [
     vod: 'https://www.twitch.tv/hoklaamc/',
     tentative: false,
   },
+  {
+    key: '3',
+    game: 'UB Round 1 Game 3',
+    datetime: 'Sat Jan 2 2020 19:00 EST',
+    team1: 'HCCFrosh',
+    team2: 'iron chefs',
+    maps: [],
+    score: null,
+    vod: 'https://www.twitch.tv/hoklaamc/',
+    tentative: false,
+  },
+
   {
     key: '4',
     game: 'UB Round 1 Game 2',
