@@ -41,7 +41,7 @@ function GamePage() {
     <Row>
       <Col md={{ span: 16, offset: 4 }} span={24}>
         <Title>
-          {game.team1} {game.score || 'vs'} {game.team2}
+          {game.team1} {game.result || 'vs'} {game.team2}
         </Title>
         <Paragraph>{game.game}</Paragraph>
         <Paragraph>{game.datetime}</Paragraph>
