@@ -9,8 +9,12 @@ function SchedulePage() {
   const { Title } = Typography;
   const { Column } = Table;
 
-  const renderTeam = (team, record) => {
-    return record.tentative ? <i style={{ color: 'grey' }}>{team}</i> : team;
+  const renderTeam = team => {
+    return team.includes('UB') || team.includes('LB') ? (
+      <i style={{ color: 'grey' }}>{team}</i>
+    ) : (
+      team
+    );
   };
 
   return (

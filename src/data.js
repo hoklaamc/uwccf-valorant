@@ -495,7 +495,6 @@ export const games = [
     vodId: '855925626',
     vodIdTime: '0h11m54s',
     vodLink: 'https://www.twitch.tv/videos/855925626?t=00h11m54s',
-    tentative: false,
   },
   {
     key: '2',
@@ -506,7 +505,6 @@ export const games = [
     maps: [],
     result: null,
     vodLink: 'https://www.twitch.tv/hoklaamc/',
-    tentative: false,
   },
   {
     key: '3',
@@ -517,7 +515,6 @@ export const games = [
     maps: [],
     result: null,
     vodLink: 'https://www.twitch.tv/hoklaamc/',
-    tentative: false,
   },
 
   {
@@ -529,7 +526,6 @@ export const games = [
     maps: [],
     result: null,
     vodLink: 'https://www.twitch.tv/hoklaamc/',
-    tentative: false,
   },
   {
     key: '5',
@@ -540,7 +536,6 @@ export const games = [
     maps: [],
     result: null,
     vodLink: 'https://www.twitch.tv/hoklaamc/',
-    tentative: true,
   },
   {
     key: '6',
@@ -551,7 +546,6 @@ export const games = [
     maps: [],
     result: null,
     vodLink: 'https://www.twitch.tv/hoklaamc/',
-    tentative: true,
   },
   {
     key: '7',
@@ -562,7 +556,6 @@ export const games = [
     maps: [],
     result: null,
     vodLink: 'https://www.twitch.tv/hoklaamc/',
-    tentative: true,
   },
   {
     key: '8',
@@ -573,7 +566,6 @@ export const games = [
     maps: [],
     result: null,
     vodLink: 'https://www.twitch.tv/hoklaamc/',
-    tentative: true,
   },
   {
     key: '9',
@@ -584,7 +576,6 @@ export const games = [
     maps: [],
     result: null,
     vodLink: 'https://www.twitch.tv/hoklaamc/',
-    tentative: true,
   },
   {
     key: '10',
@@ -595,7 +586,6 @@ export const games = [
     maps: [],
     result: null,
     vodLink: 'https://www.twitch.tv/hoklaamc/',
-    tentative: true,
   },
   {
     key: '11',
@@ -606,7 +596,6 @@ export const games = [
     maps: [],
     result: null,
     vodLink: 'https://www.twitch.tv/hoklaamc/',
-    tentative: true,
   },
   {
     key: '12',
@@ -617,7 +606,6 @@ export const games = [
     maps: [],
     result: null,
     vodLink: 'https://www.twitch.tv/hoklaamc/',
-    tentative: true,
   },
   {
     key: '13',
@@ -628,7 +616,6 @@ export const games = [
     maps: [],
     result: null,
     vodLink: 'https://www.twitch.tv/hoklaamc/',
-    tentative: true,
   },
   {
     key: '14',
@@ -639,6 +626,5 @@ export const games = [
     maps: [],
     result: null,
     vodLink: 'https://www.twitch.tv/hoklaamc/',
-    tentative: true,
   },
 ];
