@@ -491,7 +491,7 @@ export const games = [
         ],
       },
     ],
-    score: null,
+    score: '13 - 2',
     vodId: '855925626',
     vodIdTime: '0h11m54s',
     vodLink: 'https://www.twitch.tv/videos/855925626?t=00h11m54s',
