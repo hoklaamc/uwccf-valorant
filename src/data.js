@@ -292,7 +292,7 @@ export const teams = [
   {
     id: 7,
     name: 'Team Iron + Daniel',
-    gamesPlayed: 0,
+    gamesPlayed: 1,
     players: [
       {
         name: 'Jeffelini',
