@@ -185,6 +185,14 @@ export const teams = [
         assists: 0,
         econ: 0,
       },
+      {
+        name: 'Amanice Guy',
+        acs: 0,
+        kills: 0,
+        deaths: 0,
+        assists: 0,
+        econ: 0,
+      },
     ],
   },
   {
