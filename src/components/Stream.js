@@ -4,7 +4,7 @@ import { TwitchEmbed } from 'react-twitch-embed';
 function Stream() {
   return (
     <TwitchEmbed
-      channel="DwarveSC"
+      channel="hoklaamc"
       theme="dark"
       muted
       width="100%"
