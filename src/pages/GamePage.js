@@ -45,11 +45,11 @@ function GamePage() {
         </Title>
         <Paragraph>{game.game}</Paragraph>
         <Paragraph>{game.datetime}</Paragraph>
-        {game.vodId && game.vodIdTime && (
+        {game.vodId && game.vodTime && (
           <div style={{ marginBottom: '16px' }}>
             <TwitchPlayer
               video={game.vodId}
-              time={game.vodIdTime}
+              time={game.vodTime}
               theme="dark"
               autoplay={false}
               muted
