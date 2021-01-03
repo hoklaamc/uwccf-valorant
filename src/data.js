@@ -909,7 +909,7 @@ export const games = [
     game: 'UB Round 2 Game 1',
     datetime: 'Mon Jan 4 2020 21:00 EST',
     team1: 'The Mashed Potatoes',
-    team2: 'bunca guys ere',
+    team2: 'buncha guys ere',
     maps: [],
     result: null,
     vodLink: 'https://www.twitch.tv/hoklaamc/',
