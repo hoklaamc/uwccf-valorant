@@ -36,14 +36,12 @@ function PlayerCard({ player }) {
   };
   const getAverage = stat => {
     let stats = getAllStats(stat);
-    debugger;
     if (stats.length === 0) return 0;
     return mean(stats);
   };
 
   const getSum = stat => {
     let stats = getAllStats(stat);
-    debugger;
     return sum(stats);
   };
 
