@@ -18,14 +18,14 @@ function PlayerCard({ player }) {
       game.maps.forEach(map => {
         if (map.team1Stats) {
           map.team1Stats.forEach(mapPlayer => {
-            if (mapPlayer.name === player.name) {
+            if (mapPlayer.name === player) {
               stats.push(mapPlayer[stat]);
             }
           });
         }
         if (map.team2Stats) {
           map.team2Stats.forEach(mapPlayer => {
-            if (mapPlayer.name === player.name) {
+            if (mapPlayer.name === player) {
               stats.push(mapPlayer[stat]);
             }
           });
@@ -36,16 +36,24 @@ function PlayerCard({ player }) {
   };
   const getAverage = stat => {
     let stats = getAllStats(stat);
+    debugger;
+    if (stats.length === 0) return 0;
     return mean(stats);
   };
 
   const getSum = stat => {
     let stats = getAllStats(stat);
+    debugger;
     return sum(stats);
   };
 
+  const getKD = () => {
+    const kd = (getSum('kills') / getSum('deaths')).toFixed(2);
+    return isNaN(kd) ? 0 : kd;
+  };
+
   return (
-    <Card title={player.name} size="small">
+    <Card title={player} size="small">
       <Row gutter={8}>
         <Col span={12}>
           <Tooltip title={acsText}>
@@ -71,7 +79,7 @@ function PlayerCard({ player }) {
           <Tooltip title={kdText}>
             <Statistic
               title="KD"
-              value={(getSum('kills') / getSum('deaths')).toFixed(2)}
+              value={getKD()}
               valueStyle={{ fontSize: '10px' }}
             />
           </Tooltip>
