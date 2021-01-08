@@ -1510,7 +1510,7 @@ export const games = [
   {
     key: '13',
     game: 'LB Finals',
-    datetime: 'Fri Jan 8 2020 21:00 EST',
+    datetime: 'Fri Jan 8 2020 20:00 EST',
     team1: "Samson's Mullet",
     team2: 'Mac X UW CCF',
     maps: [],
