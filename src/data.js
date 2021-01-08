@@ -2,7 +2,6 @@ export const teams = [
   {
     id: 1,
     name: 'HCCFrosh',
-    gamesPlayed: 0,
     players: ['JO0F', 'Kimchi', 'MistyRaid', 'notEvoz', 'StahpthecaP'],
   },
   {
@@ -20,13 +19,11 @@ export const teams = [
   {
     id: 3,
     name: 'The Mashed Potatoes',
-    gamesPlayed: 1,
     players: ['OGKigar', 'DWong03', 'Shotblast01', 'mb4wong', 'ImFromSeason2'],
   },
   {
     id: 4,
     name: '(TSM) Team Servant (of Christ) Mid',
-    gamesPlayed: 2,
     players: [
       'Wakande',
       'k0n9',
@@ -39,7 +36,6 @@ export const teams = [
   {
     id: 5,
     name: 'Mac x UW CCF',
-    gamesPlayed: 0,
     players: [
       'tyco',
       'Arthritis',
@@ -52,7 +48,6 @@ export const teams = [
   {
     id: 6,
     name: "Samson's Mullet",
-    gamesPlayed: 0,
     players: [
       'Sequoia',
       'bread',
@@ -71,7 +66,6 @@ export const teams = [
   {
     id: 8,
     name: 'iron chefs',
-    gamesPlayed: 0,
     players: ['bran', 'Cyanine', 'yourgodname', 'AceHelosis', 'dragonsp'],
   },
 ];
