@@ -53,7 +53,15 @@ export const teams = [
     id: 6,
     name: "Samson's Mullet",
     gamesPlayed: 0,
-    players: ['Sequoia', 'bread', 'gsong', 'kilojoel', 'Dr Schmeat', 'ttaiken'],
+    players: [
+      'Sequoia',
+      'bread',
+      'gsong',
+      'kilojoel',
+      'Dr Schmeat',
+      'Heffren Lo',
+      'ttaiken',
+    ],
   },
   {
     id: 7,
@@ -1273,7 +1281,7 @@ export const games = [
     maps: [
       {
         map: 'Ascent',
-        team1stats: [
+        team1Stats: [
           {
             key: '1',
             name: 'Sequoia',
@@ -1326,7 +1334,7 @@ export const games = [
             econ: 28,
           },
         ],
-        team2stats: [
+        team2Stats: [
           {
             key: '1',
             name: 'notEvoz',
