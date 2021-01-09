@@ -1021,7 +1021,7 @@ export const games = [
         ],
       },
     ],
-    result: '12 - 14',
+    result: '14 - 12',
     vodId: '861720936',
     vodTime: '0h10m52s',
     vodLink: 'https://www.twitch.tv/videos/861720936?t=0h10m52s',
