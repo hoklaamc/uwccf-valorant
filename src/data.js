@@ -961,7 +961,7 @@ export const games = [
             name: 'mb4wong',
             agent: 'phoenix',
             acs: 142,
-            kills: 1,
+            kills: 11,
             deaths: 19,
             assists: 4,
             econ: 31,
