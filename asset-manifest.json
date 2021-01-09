@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/uwccf-valorant/static/css/main.4654fdc9.chunk.css",
-    "main.js": "/uwccf-valorant/static/js/main.978a4ad5.chunk.js",
-    "main.js.map": "/uwccf-valorant/static/js/main.978a4ad5.chunk.js.map",
+    "main.js": "/uwccf-valorant/static/js/main.92c05fdd.chunk.js",
+    "main.js.map": "/uwccf-valorant/static/js/main.92c05fdd.chunk.js.map",
     "runtime-main.js": "/uwccf-valorant/static/js/runtime-main.61e2ed64.js",
     "runtime-main.js.map": "/uwccf-valorant/static/js/runtime-main.61e2ed64.js.map",
     "static/css/2.4d98ed14.chunk.css": "/uwccf-valorant/static/css/2.4d98ed14.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.4d98ed14.chunk.css",
     "static/js/2.45a1bc17.chunk.js",
     "static/css/main.4654fdc9.chunk.css",
-    "static/js/main.978a4ad5.chunk.js"
+    "static/js/main.92c05fdd.chunk.js"
   ]
 }
