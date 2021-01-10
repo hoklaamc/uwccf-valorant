@@ -58,17 +58,34 @@ function GamePage() {
             />
           </div>
         )}
-        {game.maps.map(mapStats => (
-          <div key={mapStats.map}>
-            <Title>Map: {mapStats.map}</Title>
-            <Table dataSource={mapStats.team1Stats} pagination={false}>
-              {columns(game.team1)}
-            </Table>
-            <Table dataSource={mapStats.team2Stats} pagination={false}>
-              {columns(game.team2)}
-            </Table>
-          </div>
-        ))}
+        {game.maps.length > 1
+          ? game.maps.map((mapStats, index) => (
+              <div key={mapStats.map}>
+                <Title>
+                  Map {index + 1}: {mapStats.map}
+                </Title>
+                <Title>
+                  {game.team1} {mapStats.result} {game.team2}
+                </Title>
+                <Table dataSource={mapStats.team1Stats} pagination={false}>
+                  {columns(game.team1)}
+                </Table>
+                <Table dataSource={mapStats.team2Stats} pagination={false}>
+                  {columns(game.team2)}
+                </Table>
+              </div>
+            ))
+          : game.maps.map(mapStats => (
+              <div key={mapStats.map}>
+                <Title>Map: {mapStats.map}</Title>
+                <Table dataSource={mapStats.team1Stats} pagination={false}>
+                  {columns(game.team1)}
+                </Table>
+                <Table dataSource={mapStats.team2Stats} pagination={false}>
+                  {columns(game.team2)}
+                </Table>
+              </div>
+            ))}
       </Col>
     </Row>
   );

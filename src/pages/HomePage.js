@@ -19,6 +19,9 @@ function HomePage() {
           A for-fun Valorant tournament with those in the UWCCF community and
           friends!
         </Paragraph>
+        <Title>
+          Congratulations to Mac x UW CCF, our first UWCCF Valorant champions!
+        </Title>
         {/* <Button
         type="primary"
         size="large"
@@ -30,11 +33,11 @@ function HomePage() {
       </Button>
       <Paragraph>Deadline 11:59pm EST, Sunday Dec 27 2020</Paragraph> */}
       </div>
-      <Row>
+      {/* <Row>
         <Col lg={{ span: 16, offset: 4 }} span={24}>
           <Stream />
         </Col>
-      </Row>
+      </Row> */}
     </>
   );
 }
