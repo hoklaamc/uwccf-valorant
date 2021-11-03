@@ -2,4 +2,4 @@
 
 UWCCF Valorant website
 
-[Live site here](hoklaamc.github.io/uwccf-valorant)
+[Live site here](https://hoklaamc.github.io/uwccf-valorant)
